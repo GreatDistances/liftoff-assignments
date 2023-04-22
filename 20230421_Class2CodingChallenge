@@ -1,0 +1,32 @@
+function minMax(arr) {
+	
+	let arr1 = arr;
+	console.log(arr);
+	
+	let i = 0;
+	let min = 1000;
+  let max = -1000;
+  let result = [];
+
+    while (i < arr1.length) {
+        if (arr1[i] < min) {
+            min = arr1[i];
+					console.log("Current min: " + min)
+        }
+        if (arr1[i] > max) {
+            max = arr1[i];
+					console.log("Current max: " + max)
+        }
+			result = [min, max];
+        i++;
+    }
+
+    return result;
+	
+}
+
+minMax([1, 2, 3, 4, 5]) // ➞ [1, 5]
+
+minMax([2334454, 5]) // ➞ [5, 2334454]
+
+minMax([1]) // ➞ [1, 1]
