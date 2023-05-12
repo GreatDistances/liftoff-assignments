@@ -7,4 +7,6 @@ This assignment will get you set up and rolling with a basic project. By the end
 ## Submission Instructions
 
 ### Project Repository
-Change this text with a link to your project repository here. Also add a README.md file to your project repository.
+- [MovieDL (working title) project repository](https://github.com/Apr-23-LC-LiftOff-STL/Liftoff-Team-Tjovi)  
+- [MovieDL README](https://github.com/Apr-23-LC-LiftOff-STL/Liftoff-Team-Tjovi/blob/main/README.md)  
+- [MovieDL LICENSE](https://github.com/Apr-23-LC-LiftOff-STL/Liftoff-Team-Tjovi/blob/main/LICENSE)  
