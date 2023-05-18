@@ -1,0 +1,17 @@
+// https://edabit.com/challenge/4gzDuDkompAqujpRi
+
+const addUp = (num) => {
+  let i = 0;
+  sum = 0;
+  
+  while (i < num +1) {
+    sum += i;
+    i++;
+  }
+
+  return sum;
+}
+
+console.log(addUp(4)); // 10
+console.log(addUp(13)); // 91
+console.log(addUp(600)); // 180300
