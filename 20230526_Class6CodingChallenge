@@ -1,0 +1,17 @@
+// https://edabit.com/challenge/rvsvGvqZ3BzNieKqA
+
+const detectWord = (argString) => {
+  newString = '';
+  for (i = 0; i < argString.length; i++) {
+    if (argString[i] == argString[i].toLowerCase()) {
+      newString = newString + argString[i];
+    }
+  }
+  return newString;
+}
+
+console.log(detectWord("UcUNFYGaFYFYGtNUH")); // "cat"
+
+console.log(detectWord("bEEFGBuFBRrHgUHlNFYaYr")); // "burglar"
+
+console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment")); // "embezzlement"
